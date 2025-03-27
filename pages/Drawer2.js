@@ -3,7 +3,7 @@ import { View } from "react-native";
 
 export default function Drawer2() {
     return (
-        <View style={styles.container}></View>
+        <View style={styles.container}>Drawer 2</View>
     );
 }
 
@@ -13,8 +13,6 @@ const styles = {
         justifyContent: "center",
         alignItems: "center",
         backgroundColor: "violet",
-    },
-    title: {
         fontSize: 30,
-    }
+    },
 }
